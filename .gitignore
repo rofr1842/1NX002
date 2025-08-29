@@ -2,4 +2,7 @@ ThinkPython2/
 *.pdf
 input/
 output/
+*.zip
+.idea/
+__pycache__/
 
