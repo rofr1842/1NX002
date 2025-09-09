@@ -1,5 +1,10 @@
 """THE TOWER OF HANOI, by Al Sweigart al@inventwithpython.com
-A stack-moving puzzle game."""
+A stack-moving puzzle game.
+For n disks, it takes a minimum of 2n – 1 moves to solve the Tower of
+Hanoi. So this five-disk tower requires 31 steps: AC, AB, CB, AC, BA, BC,
+AC, AB, CB, CA, BA, CB, AC, AB, CB, AC, BA, BC, AC, BA, CB, CA, BA, BC,
+AC, AB, CB, AC, BA, BC, and finally AC
+"""
 
 import copy
 import sys
